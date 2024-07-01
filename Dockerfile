@@ -1,4 +1,4 @@
 FROM openjdk:17
 EXPOSE 8080
-ADD target/GHA-Docker-sample.jar GHA-Docker-sample.jar
-ENTRYPOINT ["java","-jar","/GHA-Docker-sample.jar"]
+ADD target/gha-docker-sample.jar gha-docker-sample.jar
+ENTRYPOINT ["java","-jar","/gha-docker-sample.jar"]
